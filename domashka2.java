@@ -30,7 +30,7 @@ public class dp {
                 break;
             case "/":
                 if (num2 == 0) {
-                    System.out.println("Ошибка: деление на ноль");
+                    System.out.println("Ошибка!");
                 } else {
                     result = num1 / num2;
                     System.out.println(result);
